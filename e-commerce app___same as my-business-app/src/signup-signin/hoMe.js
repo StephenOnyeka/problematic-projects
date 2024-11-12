@@ -92,7 +92,7 @@ function HoMe({data, setData}) {
      setLoading(false);
    }, 1000);
  });
-
+ 
   return (
     <div>
       <Routes>

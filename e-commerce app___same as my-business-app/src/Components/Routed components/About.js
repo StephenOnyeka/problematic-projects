@@ -60,6 +60,7 @@ function About({ cartItems, subtotal }) {
       </>
     );
   };
+  
   const ShowProduct = () => {
     return (
       <>
