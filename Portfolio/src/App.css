@@ -41,7 +41,8 @@ div {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("c:\Users\Don\Downloads\BeautyPlus_20230926212209388_save.jpg");
+    url("/public/images/BeautyPlus_20230926212209388_save.jpg");
+    /*  */
 }
 #home_container {
   font-size: 2rem;
@@ -155,7 +156,7 @@ div {
   line-height: 1.8rem;
   border: 1px solid #fff;
   padding: 1rem;
-  height: 17rem;
+  height: 17rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
   width: 20rem;
   border-radius: 10px;
 }
@@ -287,10 +288,6 @@ h3 span a{
   -webkit-text-fill-color: transparent;
 
 }
-.p_image{
-  
-}
-
 /*---------- About_section----------*/
 #About {
   margin-top: 8rem;
@@ -353,7 +350,7 @@ h3 span a{
   margin-left: 25px;
   margin-bottom: 20px;
   /* top: 10%; */
-}
+}c
 
 .about_content-2 {
   font-family: "Montserrat", sans-serif;
@@ -678,7 +675,7 @@ a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("c:\Users\Don\Downloads\BeautyPlus_20230926212209388_save.jpg");
+    url("/public/images/BeautyPlus_20230926212209388_save.jpg");
 }
 
   #home_container {

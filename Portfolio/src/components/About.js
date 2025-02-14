@@ -10,7 +10,8 @@ function About() {
         <div id="about_container">
           <div className="about_content-1">
             <div className="about-img">
-              <img src="./images/IMG_20230926_141504_131.jpg" alt="" />
+              {/* <img src="./images/IMG_20230926_141504_131.jpg" alt="" /> */}
+              <img src="./images/t99tur36_400x400.jpg" alt="" />
             </div>
           </div>
 

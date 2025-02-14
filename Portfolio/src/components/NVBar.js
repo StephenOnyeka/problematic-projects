@@ -26,19 +26,6 @@ function NVBar() {
     }
     }
   }
-  
-  // window.addEventListener("scroll", function () {
-  //   const navbar = document.getElementById("navbar");
-
-
-  //     if (window.innerWidth >= 1000) {
-  //       if (window.pageYOffset >= 400) {
-  //             navbar.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
-  //       } else {
-  //             navbar.style.backgroundColor = "transparent";
-  //       }
-  //     }
-  //   });
 
   return (
     <nav id="navbar">
