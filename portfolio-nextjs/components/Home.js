@@ -51,11 +51,11 @@ function HOme() {
           <div className="absolute bg-black/90 px-8 pt-4 w-screen font-Poppins text-white h-full text-center ">
             <Navbar />
 
-            <div className=" flex content-center justify-center">
+            <div className=" flex content-center justify-center ">
               <div className="absolute w-full text-white h-full text-center flex items-center justify-center">
                 <div className="text-5xl lg:text-6xl space-y-12 max-sm:space-y-8 max-sm:text-3xl w-full">
                   My name is{" "}
-                  <span className="font-bold tracking-wider italic text-6xl lg:text-7xl bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500 text-transparent font-Georgia">
+                  <span className="font-bold tracking-wider italic text-6xl lg:text-7xl name font-Georgia">
                     Stephen O.
                   </span>
                   <p className="text-2xl md:text-3xl lg:text-5xl">
@@ -66,7 +66,7 @@ function HOme() {
                   </p>
                   <div className="flex gap-6 items-center justify-center">
                     <Link href="#Portfolio">
-                      <button className="shiny-button border-2 px-8 py-2 font-Georgia italic tracking-[4px] text-4xl max-sm:text-2xl ">
+                      <button className="shiny-button border-2 px-8 py-2 font-Georgia italic tracking-[4px] text-4xl max-sm:text-2xl focus:bg-white focus:text-[#0b001a]">
                         Explore
                       </button>
                     </Link>
@@ -90,8 +90,8 @@ function HOme() {
         <div className="max-w-7xl mx-auto">
           <div
             data-aos="fade-up"
-            className="flex justify-between content-center gap-4 max-sm:flex-wrap"
-            // className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-sm:gap-6 p-2 h-auto justify-items-center"
+            // className="flex justify-between content-center gap-4 max-sm:flex-wrap"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 max-md:gap-4 max-sm:gap-6 p-2 h-auto justify-items-center"
           >
             <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-auto w-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
               <div id="icon">
@@ -181,12 +181,11 @@ function HOme() {
                 MOBILE APP MAINTENANCE
               </h3>
               <p className="max-sm:text-sm max-sm:leading-6">
-                I craft mobile applications and also Offer mobile app maintenance services for faulty
-                applications. Making them platform compatible and easy to work
-                with.
+                I craft mobile applications and also Offer mobile app
+                maintenance services for faulty applications. Making them
+                platform compatible and easy to work with.
               </p>
             </div>
-            
           </div>
         </div>
       </section>
@@ -196,16 +195,14 @@ function HOme() {
         className="h-full w-full flex flex-col justify-center items-center content-center max-lg:px-4 py-32"
       >
         <h1 className="text-white tracking-widest text-3xl font-medium text-center py-8">
-          RECENT{" "}
-          <span className="text-purple-500  bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500 text-transparent">
-            PROJECTS
-          </span>
+          RECENT <span className="name">PROJECTS</span>
         </h1>
         <div className="max-w-7xl mx-auto" data-aos="fade-up">
           {" "}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-sm:gap-16 p-2 h-auto justify-items-center ">
             {/* <div className="border "> */}
-            <div className="flex flex-col gap-4 font-Georgia text-purple-200/90">
+            {/* <div className="flex flex-col gap-4 font-Georgia text-purple-200/90"> */}
+            <div className="flex flex-col gap-4 font-Georgia bname">
               <Link
                 href="https://business-app-don.vercel.app/"
                 className="shiny-button"
@@ -239,7 +236,8 @@ function HOme() {
                 of API calls.
               </p>
             </div>
-            <div className="flex flex-col gap-4 font-Georgia text-purple-200/90">
+            {/* <div className="flex flex-col gap-4 font-Georgia text-purple-200/90"> */}
+            <div className="flex flex-col gap-4 font-Georgia bname">
               <Link
                 className="shiny-button"
                 href="https://stephenonyeka.github.io/lan -page/#home"
@@ -271,7 +269,8 @@ function HOme() {
                 manupulated
               </p>
             </div>
-            <div className="flex flex-col gap-4 font-Georgia text-purple-200/90">
+            {/* <div className="flex flex-col gap-4 font-Georgia text-purple-200/90"> */}
+            <div className="flex flex-col gap-4 font-Georgia bname">
               <Link
                 className="shiny-button"
                 href="https://kingster.vercel.app/"
@@ -302,7 +301,8 @@ function HOme() {
                 TailwindCSS to prove mastery of the technologies involved.
               </p>
             </div>
-            <div className="flex flex-col gap-4 font-Georgia text-purple-200/90">
+            {/* <div className="flex flex-col gap-4 font-Georgia text-purple-200/90"> */}
+            <div className="flex flex-col gap-4 font-Georgia bname">
               <Link
                 className="shiny-button"
                 href="https://paint-site-p.vercel.app/"
@@ -341,10 +341,7 @@ function HOme() {
         className="h-auto  flex flex-col justify-center max-lg:px-4 py-20"
       >
         <h1 className="text-white tracking-widest text-3xl font-medium text-center py-20">
-          ABOUT{" "}
-          <span className="text-purple-500  bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500 text-transparent">
-            ME
-          </span>
+          ABOUT <span className="name">ME</span>
         </h1>
         <div className="max-w-7xl mx-auto" data-aos="fade-left">
           <div className="flex max-sm:flex-wrap items-center justify-between gap-10 p-2">
@@ -379,10 +376,10 @@ function HOme() {
         </div>
       </section>
       <section className="h-auto flex flex-col justify-center max-lg:px-4 py-20">
-        <p className="bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500 text-transparent racking-widest text-3xl font-bold italic text-center py-20 font-Georgia ">
+        <p className="name racking-widest text-3xl max-sm:text-2xl font-bold italic text-center py-20 font-Georgia ">
           Here are some of the technologies that I use...
         </p>
-        <div className="max-w-7xl mx-auto" data-aos="zoom-in">
+        <div className="max-w-7xl mx-auto" data-aos="fade-up">
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 justify-between gap-16 sm:gap-28 px-2">
             <Image
               src={"/images/919827.png"}
@@ -452,20 +449,18 @@ function HOme() {
         className="h-screen  flex flex-col justify-center max-lg:px-4 "
       >
         <h1 className="text-white tracking-widest text-3xl font-medium text-center py-12">
-          CONTACT{" "}
-          <span className="text-purple-500  bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500 text-transparent">
-            ME
-          </span>
+          CONTACT <span className="name">ME</span>
         </h1>
         <div className="max-w-7xl mx-auto text-center space-y-6 text-white">
           <div className="flex flex-col gap-4 tracking-widest">
-            <p className="text-2xl font-medium">
+            <p className="text-2xl max-sm:text-xl font-medium">
               WANT TO COLLABORATE? SEND ME AN E-MAIL
             </p>
-            <p className="text-lg font-medium">
+            <p className="text-lg max-sm:text-sm font-medium">
               I AM VERY RESPONSIVE TO MESSAGES
             </p>
           </div>
+          <br />
           <br />
           <Link href="mailto:https://ejeanobionyeka@gmail.com">
             <button className="shiny-button font-Georgia italic border px-6 py-3 tracking-widest">
@@ -474,51 +469,10 @@ function HOme() {
           </Link>
         </div>
       </section>
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
 
 export default HOme;
 
-{
-  /* <section id="Home" className="max-w-full">
-        <div className="relative w-full h-screen">
-          <video
-            className="absolute top-0 left-0 w-full h-full object-cover"
-            autoPlay
-            loop
-            muted
-          >
-            <source src="/vids/PinGrab_1739448372792.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div className="absolute bg-black/90 px-8 pt-8 max-sm:px-4 w-full font-Poppins text-white h-full text-center flex items-center justify-center">
-            <div className="text-5xl lg:text-6xl space-y-12 max-sm:text-3xl w-full">
-              My name is{" "}
-              <span className="font-bold tracking-wider italic text-6xl lg:text-7xl bg-gradient-to-r bg-clip-text from-purple-500 to-pink-500 text-transparent font-Georgia">
-                Stephen O.
-              </span>
-              <p>
-                I'm a <span>{typeEffect} </span>{" "}
-                <span>
-                  <Cursor cursorStyle="|" />
-                </span>
-              </p>
-              <div className="flex gap-6  items-center justify-center">
-                <Link href="#Portfolio">
-                  <button className="border-2 px-8 py-2 font-[Monsterrat] italic tracking-widest text-4xl">
-                    Explore
-                  </button>
-                </Link>
-                <Link href="#Portfolio">
-                  <FaGithub className="size-10 lg:size-10" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */
-}
