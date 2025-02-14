@@ -82,7 +82,7 @@ function HOme() {
       </section>
       <section
         id="Services"
-        className="h-full flex flex-col justify-center max-lg:px-4 py-32 lg:py-16"
+        className="h-full flex flex-col justify-center max-lg:px-4 py-4 lg:py-16"
       >
         <h1 className="text-white tracking-widest text-3xl font-medium text-center py-8 ">
           SERV<span className="text-purple-500">I</span>CES
@@ -90,9 +90,10 @@ function HOme() {
         <div className="max-w-7xl mx-auto">
           <div
             data-aos="fade-up"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-sm:gap-6 p-2 h-auto justify-items-center"
+            className="flex justify-between content-center gap-4 max-sm:flex-wrap"
+            // className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-sm:gap-6 p-2 h-auto justify-items-center"
           >
-            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
+            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-auto w-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
               <div id="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +116,7 @@ function HOme() {
               </p>
             </div>
 
-            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
+            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-auto w-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
               <div id="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +139,7 @@ function HOme() {
                 desktops, smartphones and tablets.
               </p>
             </div>
-            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
+            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-auto w-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
               <div id="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +163,7 @@ function HOme() {
               </p>
             </div>
 
-            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
+            <div className="border flex flex-col items-center justify-center text-center text-white p-4 gap-6 max-sm:gap-4 h-auto w-full rounded-lg  bg-gradient-to-r from-purple-700 to-purple-500 hover:transition hover:duration-300 hover:ease-in hover:shadow-lg hover:shadow-gray-400 ">
               <div id="icon">
                 {" "}
                 <svg
@@ -180,11 +181,12 @@ function HOme() {
                 MOBILE APP MAINTENANCE
               </h3>
               <p className="max-sm:text-sm max-sm:leading-6">
-                Offering mobile app maintenance services for faulty
+                I craft mobile applications and also Offer mobile app maintenance services for faulty
                 applications. Making them platform compatible and easy to work
                 with.
               </p>
             </div>
+            
           </div>
         </div>
       </section>
@@ -201,7 +203,7 @@ function HOme() {
         </h1>
         <div className="max-w-7xl mx-auto" data-aos="fade-up">
           {" "}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-2 h-auto justify-items-center ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-sm:gap-16 p-2 h-auto justify-items-center ">
             {/* <div className="border "> */}
             <div className="flex flex-col gap-4 font-Georgia text-purple-200/90">
               <Link
@@ -231,7 +233,7 @@ function HOme() {
                   </Link>
                 </div>
               </div>
-              <p className="italic text-lg max-sm:text-sm">
+              <p className="italic text-lg max-sm:text-md">
                 DNK is an e-commerce website I created using ReactJS. I ended up
                 embedding a security dialogue. Implemented json files in stead
                 of API calls.
@@ -263,7 +265,7 @@ function HOme() {
                   </Link>
                 </div>
               </div>
-              <p className="italic text-lg max-sm:text-sm">
+              <p className="italic text-lg max-sm:text-md">
                 A landing page website I created using html, css and vanilla
                 javascript that mainly focus on use and how colors can be
                 manupulated
@@ -295,7 +297,7 @@ function HOme() {
                   </Link>
                 </div>
               </div>
-              <p className="italic text-lg max-sm:text-sm">
+              <p className="italic text-lg max-sm:text-md">
                 Kingster is a college page website I built using NextJS and
                 TailwindCSS to prove mastery of the technologies involved.
               </p>
@@ -326,7 +328,7 @@ function HOme() {
                   </Link>
                 </div>
               </div>
-              <p className="italic text-lg max-sm:text-sm">
+              <p className="italic text-lg max-sm:text-md">
                 Adoration Paints is a premium painting company. I created this
                 using NextJS, TailwindCSS and Nodejs.
               </p>
@@ -353,7 +355,7 @@ function HOme() {
             </div>
             <div className="w-full md:w-1/2">
               <div className="w-full">
-                <p className="text-white text-lg">
+                <p className="text-white text-lg max-sm:text-[1rem] ">
                   I'm a software developer with a proven track record of
                   building successful web and mobile applications.
                   <br />
@@ -369,7 +371,7 @@ function HOme() {
                   clients to deliver exceptional results.
                   <br />
                   <br />
-                  <span className="italic">Stephen Onyeka.</span>
+                  <span className="text-md font-semibold">Stephen Onyeka.</span>
                 </p>
               </div>
             </div>
@@ -381,7 +383,7 @@ function HOme() {
           Here are some of the technologies that I use...
         </p>
         <div className="max-w-7xl mx-auto" data-aos="zoom-in">
-          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-between gap-16 sm:gap-28 px-2">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 justify-between gap-16 sm:gap-28 px-2">
             <Image
               src={"/images/919827.png"}
               width={100}
